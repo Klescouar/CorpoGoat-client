@@ -1,5 +1,9 @@
-import { Loader } from '@mantine/core'
+import { Loader } from '@mantine/core';
 
 export default function Loading() {
-  return <Loader color="blue" size="lg" type="bars" />
+  return (
+    <div className="h-full flex justify-center items-center">
+      <Loader color="blue" size="lg" type="bars" />
+    </div>
+  );
 }
